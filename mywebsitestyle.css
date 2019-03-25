@@ -1,0 +1,36 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/08/00/26/desk-1081708_1280.jpg");
+    background-size: cover;
+    color: rgb(199, 135, 17);
+    display: -ms-flexbox;
+}
+img{
+    padding: 10px;
+    border-style: solid 2px rgb(223, 208, 208);
+    
+
+}
+
+input{
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    padding: 20 px;
+    border: 0
+    color: rgb(120, 68, 68)
+}
+
+input[type="submit"]{
+    font-family: 'Segoe UI';
+    background: rgb(82, 64, 52);
+    color:whitesmoke;
+    padding: 10px;
+    
+
+}
+input :hover{
+    color: rgb(226, 194, 88);
+    font-size: 22px;
+}
